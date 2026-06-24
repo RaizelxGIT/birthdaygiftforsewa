@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For Her</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="fade-screen"></div>
+    <!-- Background Particles -->
+    <div class="particles"></div>
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="orb orb3"></div>
+
+    <!-- Music -->
+    <audio id="bgMusic" loop>
+      <source src="assets/song1.mp3" type="audio/mpeg" />
+    </audio>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="fade-1">Adesewa</h1>
+
+        <p class="fade-2">A collection of moments that still make me smile.</p>
+
+        <p class="fade-3">Some memories deserve their own little place.</p>
+
+        <div class="headphones-card fade-4">
+          <span>🎧</span>
+
+          <div>
+            <h3>Recommended</h3>
+
+            <p>Put on your headphones for the full experience.</p>
+          </div>
+        </div>
+
+        <button id="playBtn" class="fade-5">Play Music</button>
+
+        <button id="beginBtn" class="fade-6">Begin Journey →</button>
+      </div>
+    </section>
+
+    <!-- BEGINNING -->
+    <section class="beginning">
+      <div class="memory-intro">
+        <div id="dots">...</div>
+
+        <h2 id="typingText"></h2>
+
+        <p id="rememberLine">I do.</p>
+      </div>
+
+      <div class="first-memory reveal">
+        <img src="assets/memory1.jpg" alt="First Memory" class="memory-image" />
+
+        <p class="memory-caption">
+          This was the first pic you sent to me, you looked so peak.
+        </p>
+      </div>
+    </section>
+    <section class="timeline-section">
+      <div class="timeline-intro reveal">
+        <h2>The Moments That Made Us</h2>
+
+        <p>
+          Some moments stay with us. Not because they were important then, but
+          because they became important later.
+        </p>
+      </div>
+
+      <div id="timeline"></div>
+    </section>
+    <section class="little-things">
+      <div class="section-header reveal">
+        <h2>The Little Things</h2>
+
+        <p>The moments that never made it into photos.</p>
+      </div>
+
+      <div class="notes-container">
+        <article class="note reveal">
+          <p>
+            We broke up and came back so many times that I've genuinely lost
+            count. Okay... maybe not completely. I think it was four. Looking
+            back, it's kind of absurd. At the time, every breakup felt final.
+            And somehow it never was.
+          </p>
+        </article>
+
+        <article class="note reveal">
+          <p>
+            The truth is... we were both childish. Stubborn. Sometimes dramatic.
+            Sometimes unreasonable. And somehow we still kept finding our way
+            back to each other.
+          </p>
+        </article>
+
+        <article class="note reveal">
+          <p>
+            You always got mad when I kicked someone from the room in CODM.
+            Every single time. I still don't know why you cared more than the
+            person I kicked.
+          </p>
+        </article>
+
+        <article class="note reveal">
+          <p>
+            There was one breakup that made me cry. Not because I wanted
+            sympathy. Not because I wanted to be dramatic. It just hurt. And
+            that's how I knew what we had mattered to me.
+          </p>
+        </article>
+        <article class="note reveal">
+          <p>
+            I'm sorry most of our memories are relationship related but that's
+            basically all we got, we were better together than apart as friends.
+          </p>
+        </article>
+      </div>
+    </section>
+    <section class="birthday">
+      <div class="birthday-content reveal">
+        <h1>18</h1>
+
+        <p>That's a strange number, isn't it?</p>
+
+        <p>
+          Old enough to feel grown. Young enough to still be figuring everything
+          out.
+        </p>
+
+        <h2>Happy Birthday.</h2>
+      </div>
+    </section>
+    <section class="reflection">
+      <div class="reflection-content reveal">
+        <p>I know life hasn't been easy lately.</p>
+
+        <p>I know you've been carrying things that most people never see.</p>
+
+        <p>
+          And I hope that somewhere among all the difficult days, there are
+          still memories that make you smile.
+        </p>
+
+        <p>Even if some of those memories happen to include me.</p>
+      </div>
+    </section>
+    <section class="final-screen">
+      <div class="final-content reveal">
+        <h2>Thank you for being part of my story.</h2>
+
+        <p>And happy 18th birthday.</p>
+
+        <p>Whatever comes next, I'm rooting for you.</p>
+      </div>
+    </section>
+    <p id="endText">The End.</p>
+    <script src="js/main.js"></script>
+  </body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</html>
