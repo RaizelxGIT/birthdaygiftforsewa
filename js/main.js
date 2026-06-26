@@ -1,9 +1,10 @@
 const beginBtn = document.getElementById("beginBtn");
 const music = document.getElementById("bgMusic");
-
-beginBtn.addEventListener("click", () => {
+const playBtn = document.getElementById("playBtn");
+playBtn.addEventListener("click", () => {
   music.play();
-
+});
+beginBtn.addEventListener("click", () => {
   document.querySelector(".fade-screen").style.opacity = "1";
 
   setTimeout(() => {
